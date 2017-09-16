@@ -3,7 +3,7 @@ package Aptarnavimas;
 import KavosAparatas.KavosAparatas;
 import Produktai.Produktai;
 
-public class AparatuAptarnavimas {
+public class Aptarnavimas {
 
 
     public   KavosAparatas sukurkAparata() {

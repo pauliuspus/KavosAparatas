@@ -1,32 +1,30 @@
-package Aptarnavimas;
+package lt.vcs.kavosaparatas.paulius.Aptarnavimas;
 
-import KavosAparatas.KavosAparatas;
-import Produktai.Produktai;
+import lt.vcs.kavosaparatas.paulius.KavosAparatas;
+import lt.vcs.kavosaparatas.paulius.Produktai.Produktai;
 
 public class Aptarnavimas {
 
 
-    public   KavosAparatas sukurkAparata() {
-        return  new KavosAparatas(0,0,0);
+    public KavosAparatas sukurkAparata() {
+        return new KavosAparatas(0, 0, 0);
     }
 
     public void isplaukKavosAparata(KavosAparatas isplauk) {
         isplauk.valykAparata();
     }
 
-    public   KavosAparatas[] sukurkMasyva(int n) {
+    public KavosAparatas[] sukurkMasyva(int n) {
         KavosAparatas[] masyvas = new KavosAparatas[n];
-        for(int i = 0; i < masyvas.length ; i++)
-        {
-            masyvas[i] = new KavosAparatas(0,0,0);
+        for (int i = 0; i < masyvas.length; i++) {
+            masyvas[i] = new KavosAparatas(0, 0, 0);
         }
         return masyvas;
     }
 
     public void sumuokIrValykProduktus(KavosAparatas[] masyvas, int cukrausSuma, int kavosSuma, int vandensSuma) {
 
-        for(int i = 0; i < masyvas.length ; i++)
-        {
+        for (int i = 0; i < masyvas.length; i++) {
             cukrausSuma = cukrausSuma + masyvas[i].produktai.getCukrausKiekis();
             kavosSuma = kavosSuma + masyvas[i].produktai.getKavosPupKiekis();
             vandensSuma = vandensSuma + masyvas[i].produktai.getVandensKiekis();
@@ -41,26 +39,23 @@ public class Aptarnavimas {
     }
 
 
-
     public void isplaukVisusAparatus(KavosAparatas[] masyvas) {
 
-        for(int i = 0; i < masyvas.length ; i++)
-        {
+        for (int i = 0; i < masyvas.length; i++) {
             masyvas[i].valykAparata();
         }
     }
 
     public void priskirkTaPatiObjekta(KavosAparatas[] masyvas) {
-        Produktai naujas = new Produktai(10,10,10);
-        for(int i = 0; i < masyvas.length ; i++)
-        {
+        Produktai naujas = new Produktai(10, 10, 10);
+        for (int i = 0; i < masyvas.length; i++) {
             masyvas[i].setProduktai(naujas);
         }
     }
+
     public void priskirkSkirtingusObjektus(KavosAparatas[] masyvas) {
-        Produktai naujas = new Produktai(20,20,20);
-        for(int i = 0; i < masyvas.length ; i++)
-        {
+        Produktai naujas = new Produktai(20, 20, 20);
+        for (int i = 0; i < masyvas.length; i++) {
             masyvas[i].setProduktai(naujas);
         }
     }
@@ -68,7 +63,6 @@ public class Aptarnavimas {
     public Produktai istraukProduktus(KavosAparatas k) {
         return k.getProduktai();
     }
-
 
 
     public static void main(String[] args) {

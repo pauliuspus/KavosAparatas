@@ -1,6 +1,6 @@
-package Main;
+package lt.vcs.kavosaparatas.paulius.Main;
 
-import KavosAparatas.KavosAparatas;
+import lt.vcs.kavosaparatas.paulius.KavosAparatas;
 
 import java.util.Scanner;
 
@@ -64,7 +64,6 @@ public class Main {
 
     public static void main(String[] args) {
         pradekAparatoDarba();
-
 
 
     }

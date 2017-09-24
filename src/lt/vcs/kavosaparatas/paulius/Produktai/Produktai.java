@@ -1,11 +1,11 @@
-package Produktai;
+package lt.vcs.kavosaparatas.paulius.Produktai;
 
 public class Produktai {
     private int cukrausKiekis = 0;
     private int kavosPupKiekis = 0;
     private int vandensKiekis = 0;
 
-    public Produktai (int cukrausKiekis, int kavosPupKiekis, int vandensKiekis) {
+    public Produktai(int cukrausKiekis, int kavosPupKiekis, int vandensKiekis) {
         this.cukrausKiekis = cukrausKiekis;
         this.kavosPupKiekis = kavosPupKiekis;
         this.vandensKiekis = vandensKiekis;
@@ -27,7 +27,7 @@ public class Produktai {
         this.kavosPupKiekis = kavosPupKiekis;
     }
 
-    public int getVandensKiekis(){
+    public int getVandensKiekis() {
         return vandensKiekis;
     }
 

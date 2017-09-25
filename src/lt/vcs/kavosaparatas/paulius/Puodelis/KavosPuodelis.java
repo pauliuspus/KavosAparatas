@@ -1,13 +1,19 @@
 package lt.vcs.kavosaparatas.paulius.Puodelis;
 
 import lt.vcs.kavosaparatas.paulius.Produktai.Produktai;
-import lt.vcs.kavosaparatas.
+
 
 public class KavosPuodelis extends Puodelis {
 
-    protected Produktai produktai;
+    private Produktai produktai;
+    private String kavosPavadinimas;
+    private boolean arPagaminta;
 
-    public Produktai getProduktai() {
-        r
+
+    public KavosPuodelis(String kavosPavadinimas, int cukrausKiekis, int vandensKiekis, int pupeliuKiekis){
+        this.kavosPavadinimas = kavosPavadinimas;
+        this.produktai = new Produktai(cukrausKiekis, vandensKiekis, pupeliuKiekis);
     }
+
+
 }

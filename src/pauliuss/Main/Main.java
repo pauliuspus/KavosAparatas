@@ -1,6 +1,6 @@
-package lt.vcs.kavosaparatas.paulius.Main;
+package pauliuss.Main;
 
-import lt.vcs.kavosaparatas.paulius.KavosAparatas;
+import pauliuss.KavosAparatas;
 
 import java.util.Scanner;
 

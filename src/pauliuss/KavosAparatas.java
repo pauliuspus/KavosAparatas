@@ -1,6 +1,6 @@
-package lt.vcs.kavosaparatas.paulius;
+package pauliuss;
 
-import lt.vcs.kavosaparatas.paulius.Produktai.Produktai;
+import pauliuss.Produktai.Produktai;
 
 public class KavosAparatas {
 

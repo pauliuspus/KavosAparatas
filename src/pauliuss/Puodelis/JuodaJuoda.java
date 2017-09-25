@@ -1,4 +1,4 @@
-package lt.vcs.kavosaparatas.paulius.Puodelis;
+package pauliuss.Puodelis;
 
 public class JuodaJuoda extends KavosPuodelis{
     public JuodaJuoda(){

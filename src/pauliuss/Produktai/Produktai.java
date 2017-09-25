@@ -1,4 +1,4 @@
-package lt.vcs.kavosaparatas.paulius.Produktai;
+package pauliuss.Produktai;
 
 public class Produktai {
     private int cukrausKiekis = 0;

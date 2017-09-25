@@ -1,7 +1,7 @@
-package lt.vcs.kavosaparatas.paulius.Aptarnavimas;
+package pauliuss.Aptarnavimas;
 
-import lt.vcs.kavosaparatas.paulius.KavosAparatas;
-import lt.vcs.kavosaparatas.paulius.Produktai.Produktai;
+import pauliuss.KavosAparatas;
+import pauliuss.Produktai.Produktai;
 
 public class Aptarnavimas {
 

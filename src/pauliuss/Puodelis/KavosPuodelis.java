@@ -1,6 +1,6 @@
-package lt.vcs.kavosaparatas.paulius.Puodelis;
+package pauliuss.Puodelis;
 
-import lt.vcs.kavosaparatas.paulius.Produktai.Produktai;
+import pauliuss.Produktai.Produktai;
 
 
 public class KavosPuodelis extends Puodelis {
